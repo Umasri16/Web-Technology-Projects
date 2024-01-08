@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz Application</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="shortcut icon" href="./images/quiz-logo-poll.avif" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container" id="main-cont">
+<div class="row mb-5" id="user-name-form">
+  <div class="col-12">
+    <form id="user-name-form" class="user-name-form shadow">
+      <div class="form-group">
+        <label for="userName" class="userName">Enter Your Name:</label>
+        <input type="text" class="form-control" id="userName" 
+        placeholder="Your Name">
+      </div>
+    <div class="start-quiz-cont">
+      <button class="btn start-quiz-btn" id="start-quiz">Start Quiz</button>
+    </div>
+    </form>
+  </div>
+</div>
+<!-- form completed -->
+      <div class="row shadow bg-white rounded header-row" id="header-row" >
+      
+        <div class="col-12 col-md-6">
+          <div class="quiz-user"><h4 id="quiz-user-name">Welcome! Umasri</h4></div>
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="quiz-timer"><span id="timer-span">15 : 00</span></div>
+        </div>
+       
+  
+      </div>
+      <!-- 1st row -->
+      <div class="row mb-5" id="body-cont">
+        <div class="col-12 " id="body-sub-cont">
+          <div class="quiz-body" id="quiz-body">
+            <h2 id="quiz-qstn">What is the full form of RAM ?</h2>
+            <div class="radio-cont" id="radio-cont">
+              
+            </div>
+            <div class="">
+                <button class="next-qstn" id="next-qstn">Next Question</button>
+            </div>
+          </div>
+          <div class="progress mt-5">
+            <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          
+        </div>
+      </div>
+      <!-- 2nd row completed -->
+      <div class="row result-container" id="result-container">
+        <div class="col-12">
+          <div class="">
+            <p id="result-text"></p>
+            <p id="score"></p>
+        </div>
+        </div>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
