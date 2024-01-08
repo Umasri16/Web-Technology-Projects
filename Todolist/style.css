@@ -1,0 +1,107 @@
+.section-container{
+    /* border: 2px solid; */
+    margin-top: 30px;
+}
+.main-container{
+    /* border: 2px solid; */
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /* background-image: linear-gradient(to top,#DAA520, #87CEEB); */
+    background: linear-gradient(to bottom, #9b59b6, #b389b8);
+
+
+    
+}
+.todolist-heading{
+    color:#fff;
+    font-size: 45px;
+}
+.first-part{
+  /* border: 2px solid white; */
+  margin: 30px;
+
+}
+.create-heading{
+    /* border: 2px solid green ; */
+    color: #fff;
+    margin-bottom: 20px;
+}
+.user-input{
+    /* border: 2px solid yellow ; */
+    width:60%;
+    height: 50px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    border-width: 0px;
+}
+.add-btn{
+    /* border: 2px solid red; */
+height: 50px;
+width: 120px;
+border-radius: 15px;
+border-width: 0px;
+font-size: 20px;
+color: #ffff;
+background-image: linear-gradient(#4169E1, #4169E1);
+}
+.my-task-heading{
+    /* border: 2px solid white; */
+    margin: 30px;
+    color: #000000;
+}
+.save-button{
+    height: 50px;
+width: 120px;
+border-radius: 15px;
+border-width: 0px;
+font-size: 20px;
+color: #ffff;
+background-image: linear-gradient(#4169E1, #4169E1);
+margin: 30px;
+}
+.unorderedlist-container{
+    /* border: 2px solid white; */
+    margin: 30px;
+    list-style: none;
+    color: #ffff;
+}
+
+.list-container{
+    margin-bottom: 20px;
+}
+.checkbox{
+    /* border: 2px solid red; */
+    height: 30px;
+    width: 30px;
+    accent-color:yellow;
+}
+.label-cotainer{
+    /* border: 2px solid green; */
+    background-image: linear-gradient(#2d173a,#2d173a);
+    border-radius: 15px;
+    height: 50px;
+    width: 90%;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+.label-item{
+    /* border: 2px solid salmon; */
+    
+    width: 90%;
+    font-size: 20px;
+    margin-top: 1%;
+}
+.delete-icon-cotainer{
+    /* border: 2px solid red; */
+    width: 10%;
+    text-align: center;
+    margin-top:1.5%;
+}
+.delete-icon{
+    padding-top: 1%;
+}
+.line-through{
+    text-decoration: line-through;
+}
