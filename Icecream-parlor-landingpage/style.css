@@ -1,0 +1,273 @@
+
+  
+
+  @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+
+
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-para{
+ font-style: italic;
+ font-family: 'Ubuntu', sans-serif;
+ font-size: 20px;
+ color:  #FF6B6B;
+ font-weight: bold;
+}
+.logo{
+    height:60px;
+    /* width: 40px; */
+    background-color: transparent;
+}
+#nav-text{
+    color: black;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+#nav-text:hover{ 
+    border-radius:20px;
+    background-image: linear-gradient(#FF69B4, #FF6B6B);
+    color:#fff;
+}
+#nav-text1{
+    color: black;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+#nav-text1:hover{ 
+    border-radius:20px;
+    background-image: linear-gradient(#FF69B4, #FF6B6B);
+    color:#fff;
+}
+#nav-text2{
+    color: black;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+#nav-text2:hover{ 
+    border-radius:20px;
+    background-image: linear-gradient(#FF69B4, #FF6B6B);
+    color:#fff;
+}
+#nav-text3{
+    color: black;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+#nav-text3:hover{ 
+    border-radius:20px;
+    background-image: linear-gradient(#FF69B4, #FF6B6B);
+    color:#fff;
+}
+#nav-text4{
+    color: black;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+#nav-text4:hover{ 
+    border-radius:20px;
+    background-image: linear-gradient(#FF69B4, #FF6B6B);
+    color:#fff;
+}
+#nav-text5{
+    color: black;
+    font-size: 20px;
+}
+#nav-text5:hover{ 
+    border-radius:20px;
+    background-image: linear-gradient(#FF69B4, #FF6B6B);
+    color:#fff;
+}
+#toggler-icon{
+    background-color:#ffffff;
+}
+
+/* Navbar completed */
+/* Home page started */
+.home-page{
+    height:100vh;
+    background-image: url(./images/delicious-homemade-ice-cream-with-topping_23-2148425372.jpg);
+   background-repeat: no-repeat;
+ 
+    background-size: cover;
+}
+#home-page-heading{
+    color:#ffffff;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+#home-page-para{
+color: #ffffff;
+font-weight: 600;
+font-family: 'Ubuntu', sans-serif;
+}
+.home-page-button{
+    height: 50px;
+    width: 130px;
+    border-radius:200px;
+    border-width: 0px;
+    background-image: linear-gradient(#FF69B4, #FF6B6B);
+    color: #ffffff;
+    font-size: 18px;
+}
+/* Home -page ended */
+/* About Us section started */
+.about-us{
+    background-color: #FDF5E6;
+}
+#about-us-heading{
+    font-weight: bold;
+    font-size: 40px;
+    color: #FF6B6B;
+}
+.about-us-para{
+    font-size: 20px;
+}
+/* about-us sec-ended */
+/* Menu-sec started */
+.menu-sec{
+    background-color:#F5F5F5;
+
+}
+.menu-main-heading{
+    font-weight: bold;
+    font-size: 40px;
+    color: #5B3E0A;
+  
+}
+.menu-img{
+    border-radius: 30px;
+    /* height: 60vh; */
+}
+.img-menu-sec{
+    /* border: 2px solid; */
+    /* border-radius: 20px; */
+    border-width: 0px;
+    border-color: white;
+
+}
+.menu-sec-headings{
+    font-size: 30px;
+    font-weight: 100;
+}
+/* menu sec ended */
+/* flavor sec started */
+.flavors-sec{
+    background-color:  #ffe6e6; 
+}
+.flavor-sec-main-heading{
+    font-weight: bold;
+    font-size: 40px;
+    color: #990099;
+}
+.flavor{
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+.flavor:hover{
+    transform: translateY(-10px);
+    
+}
+.flavor-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    /* transform: translateY(100%); */
+    transition: transform 3s ease-in-out;
+    background: linear-gradient(to bottom, #800080, #4B0082);
+    box-shadow: 0px 0px 10px rgba(#e6e6ff, 0, 0, 0.2);
+    display: none;
+}
+.flavor:hover .flavor-info  {
+    transform: translateY(0);
+    display: block;
+}
+.flavor-title{
+    font-size: 25px;
+    font-weight: 300;
+    color:#fff;
+}
+.flavor-description{
+    color: #fff;
+    font-size: 17px;
+}
+#choco-flavor{
+    /* background: linear-gradient(to bottom, #f0e4d4, #d3b080); */
+    background: linear-gradient(to bottom, #8B4513, #A0522D);
+}
+#strawberry-flavor{
+    /* background: linear-gradient(to bottom, #ffccd2, #ff99a9); */
+    background: linear-gradient(to bottom, #ff6699, #ff3366);
+}
+/* flavaor-sec-ended */
+/* review sec started */
+.review-sec{
+    background-color:#ffd699;
+}
+.review-container{
+ margin: 50px;
+}
+.review-image{
+    height: 100px;
+    width: 100px;
+    border-radius:120px;
+    resize: 100px;
+}
+.review-heading{
+    font-weight: bold;
+    font-size: 40px;
+    color: #000000;
+}
+.review-desc{
+    color:#000000;
+    font-size: 20px;
+    margin-left: 10%;
+}
+.review-names{
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 70%;
+}
+/* review sec ended */
+/* footer sec started */
+footer{
+    background-color:  #ff9999;
+}
+/* .icon-cotainer{
+    border: 2px solid red;
+} */
+.icons{
+    /* border: 2px solid; */
+    border-radius: 120px;
+   padding:6%;
+   background-image: linear-gradient(#FF69B4, #FF6B6B);
+   color: var(--white);
+    
+}
+.footer-heading{
+    margin-top: 7%;
+    margin-bottom: 5%;
+    font-weight: bold;
+    font-size: 30px;
+    color: #fff;
+}
+.icon-cotainer h3{
+    font-size: 30px;
+    color: #fff;
+}
+.icon-cotainer p{
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
